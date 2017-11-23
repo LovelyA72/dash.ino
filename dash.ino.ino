@@ -37,4 +37,5 @@ void loop() { // an auto loop version of main function.
     tone(7, 520, 200);                          //Play a 520hz tone at pin 7
     dash.setLED();                               //switch LED color.
     delay("500");
+  }
 }

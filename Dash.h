@@ -4,6 +4,7 @@
 class Dash
 {
   public:
+    void colorPin(int redPin, int greenPin, int bluePin);
     void setColor(int red, int green, int blue);
     void setLED();
 
