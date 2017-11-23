@@ -4,21 +4,13 @@
 
 #include "Dash.h"
 
-//initialize io pins
-static int redPin = 9;
-static int greenPin = 6;
-static int bluePin = 5;
-
-//initialize variables
-int pCount = 1;
-
 Dash dash;//Create an object Dash name dash
 
 void setup() {
   //setup pin modes
-  pinMode(redPin, OUTPUT);
-  pinMode(greenPin, OUTPUT);
-  pinMode(bluePin, OUTPUT);
+  pinMode(dash.redPin, OUTPUT);
+  pinMode(dash.greenPin, OUTPUT);
+  pinMode(dash.bluePin, OUTPUT);
   pinMode(7, OUTPUT); //speaker
   pinMode(12, INPUT); //switch port
   //for debugging

@@ -8,6 +8,10 @@ class Dash
     void setColor(int red, int green, int blue);
     void setLED();
 
+    int redPin = 9;
+    int greenPin = 6;
+    int bluePin = 5;
+
     private:
       int pushCount = 0; 
 };

@@ -1,11 +1,6 @@
 #include "Dash.h"
 #include "Arduino.h"
 
-//initialize io pins
-int redPin = 9;
-int greenPin = 6;
-int bluePin = 5;
-
 void Dash::colorPin(int redP, int greenP, int blueP){
   redPin = redP;
   greenPin = greenP;
