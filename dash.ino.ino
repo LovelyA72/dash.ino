@@ -1,4 +1,4 @@
-//dash.ino standard firmwork v0.1
+//dash.ino standard framework v0.2
 //2017 TEAM A72
 //
 
@@ -23,7 +23,7 @@ void setup() {
   dash.setLED();
   Serial.print("Ready to work.\n");
 }
-void loop() { // an auto loop version of main function.
+void loop() {
   if (digitalRead(12) == HIGH) {
     Serial.print("pushed!\n");
     tone(7, 520, 200);                          //Play a 520hz tone at pin 7
